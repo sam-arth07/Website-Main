@@ -19,9 +19,6 @@ export const ThemeContext = createContext(null);
 
 
 function App() {
-  // const [data, setData] = useState([]);
-  // const [collection, setCollection] = useState([]);
-  // data={data} collection={collection} setData={setData} setCollection={setCollection}
   const [isAuth,setIsAuth] = useState(false);
   const handleSignIn = () =>{
     setIsAuth(true);
