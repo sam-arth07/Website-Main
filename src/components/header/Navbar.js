@@ -17,7 +17,6 @@ function Navbar({ theme, toggleTheme, isAuth }) {
                         <CloseIcon onClick={handleToggle} className='menue'/>
                         <NavLink to="/login">Sign in</NavLink>
                         <NavLink to="/">Home</NavLink>
-                        {*/<NavLink to="/categories">Categories</NavLink>*/}
                         <NavLink to="/gallery">Gallery</NavLink>
                         <NavLink to="/about">About</NavLink>
                         <NavLink to="/contactUs">Contact</NavLink>
